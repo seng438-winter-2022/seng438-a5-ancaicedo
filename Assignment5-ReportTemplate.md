@@ -2,12 +2,13 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
+| Group \#:       | 2 |
 |-----------------|---|
 | Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Kyle Hasan      |   |
+| Evyn Rissling   |   |
+| John Abo        |   |
+| Andres Caicedo  |   |
 
 # Introduction
 
