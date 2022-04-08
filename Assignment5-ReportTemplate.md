@@ -47,13 +47,19 @@ It can be seen from these two graphs that there seems to be a discrepency in the
 
 Assessing this hypothetical System Under Test we used the provided RDC excel spreadsheet. First, we substituted the demonstration data with the given data points, combining the time intervals in sets of two and accumulating the errors detected at that point. We could begin to define the minimum acceptable threshold for system errors giiven the acceptable ranges. 
 
-The first point at which the system is acceptable is when a maximum amount of 81 errors are found through 200 number of input events []. Next we explore different MTTF by either increasing/decreasing the maximum acceptable errors or the input event intervals.  
+The first point at which the system is acceptable is when a maximum amount of 81 errors are found through 200 number of input events. Next we explore different MTTF by either increasing/decreasing the maximum acceptable errors or the input event intervals. 
+
+# Minimum MTTF
+![image](https://github.com/seng438-winter-2022/seng438-a5-ancaicedo/blob/main/images/MIN-MTTF.png)
+
 # Lower MMTTF 
-[]
+![image](https://github.com/seng438-winter-2022/seng438-a5-ancaicedo/blob/main/images/lower-MTTF.png)
+
 # Higher MTTF
-[]
+![image](https://github.com/seng438-winter-2022/seng438-a5-ancaicedo/blob/main/images/higher-MTTF.png)
+
 # Middle MTTF
-[]
+![image](https://github.com/seng438-winter-2022/seng438-a5-ancaicedo/blob/main/images/middle-MTTF.png)
 
 What is evident in these plots is that as the acceptable number of failures increases, the program becomes more acceptable for use, and as the MTTF decreases, the program must be rejected for the amount of failures that occur during the runtime. This is reasonable considering that the MTTF is a measurement of the overall time that a system runs, divided by the number of failures or defects. 
 
