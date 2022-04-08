@@ -42,7 +42,6 @@ It can be seen from these two graphs that there seems to be a discrepency in the
 ![image](https://user-images.githubusercontent.com/27434117/162323635-7cb9c797-5f8b-4c68-b84d-03b9c68e50c1.png)
 
 
-
 # Assessment Using Reliability Demonstration Chart 
 
 Assessing this hypothetical System Under Test we used the provided RDC excel spreadsheet. First, we substituted the demonstration data with the given data points, combining the time intervals in sets of two and accumulating the errors detected at that point. We could begin to define the minimum acceptable threshold for system errors giiven the acceptable ranges. 
@@ -72,8 +71,12 @@ The RDC itself only shows the effects on the reliability of system caused by the
 The advantages of using a RDC is that analyzing the RDC is straightforward as is inputting the values. Being able to see lots of different what if scenarios is also useful.
 
 # Comparison of Results
+Using the results from the RDC we can summise that there is a minimum mean time to failure which can be calculated before accepting or rejecting a software. This tool is great for measuring when to keep testing the failure occurs within the yellow boundry. This can be seen in the middle MTTF image above. If the errors persist and cross into the red reject zone as seen in the higher MTTF image, then the testing should stop and changes to the software should be made in order to address the issues seen. If the error points pass the acceptale green threshold as shown in the lower MTTF image above, then the testing could be stopped since this means the testing is yielding acceptable results consitently. 
+
+
 
 # Discussion on Similarity and Differences of the Two Techniques
+The uses of both reliability demonstration chart (RDC) and reliability growth analysis (RGT) is clear for a software project. With RDC, the lifecycle of the project can be analized in real time, based on inter failure times and target failure rate. The RGT is another way we can analize the lifecycle of a project based, except RGT is based on inter failure times, failure count and target failure rate. 
 
 # How the team work/effort was divided and managed
 
