@@ -45,6 +45,9 @@ It can be seen from these two graphs that there seems to be a discrepency in the
 ## Decision Making Regarding a Target Failure Rate
 Using the reliability growth testing and the charts it generated, certain decisions can be made in regards to reaching a target failure rate. For the most part, this decision making is influenced by the graphs that plot failure intensity as failure count graphs do not show an easy to understand metric for the failure rate, rather displaying the cumulative failures throughout all intervals. By using the failure intensity graph, we can see the number of failures per interval, which allows us to know the failure rate if we know the interval. This can tell us if we have already reached the target failure rate we want or we can look at the trend of the graph and see if the failure rate is able to be attained with more testing. Thus, the reliability growth testing method can be used to make a decision about whether the system is good or not by using the failure intesity graph.
 
+## Advantages and disadvantages of Reliability Growth Testing
+The main advantage of reliability growth testing is that it provides easy to understand graphs that clearly show the relation of failures to time. As the name suggests, if the failure rate goes down throughout the graph, the system is improving and the reliability is growing. It also lets the developers know if they will be able to get the software in a working state before release. A disadvantage for reliability growth testing is that there is no clear way to decide whether to reject or accept the system like there is with a RDC. If the failure rate increases, that could be grounds to reject the system but all other cases are quite ambiguous.
+
 
 # Assessment Using Reliability Demonstration Chart 
 
