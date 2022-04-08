@@ -41,7 +41,11 @@ It can be seen from these two graphs that there seems to be a discrepency in the
 ### Failure Intensity
 ![image](https://user-images.githubusercontent.com/27434117/162323635-7cb9c797-5f8b-4c68-b84d-03b9c68e50c1.png)
 
+# Discussion on advantages and disadvantages of reliability growth analysis
 
+Advantages of using reliability growth analysis include <Lets try to write something here>.
+
+Disadvantages of the using reliability growth analysis include the <And something here>
 
 # Assessment Using Reliability Demonstration Chart 
 
