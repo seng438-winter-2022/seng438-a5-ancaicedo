@@ -87,9 +87,10 @@ Using the results from the RDC we can summise that there is a minimum mean time 
 The uses of both reliability demonstration chart (RDC) and reliability growth analysis (RGT) is clear for a software project. With RDC, the lifecycle of the project can be analized in real time, based on inter failure times and target failure rate. The RGT is another way we can analize the lifecycle of a project based, except RGT is based on inter failure times, failure count and target failure rate. 
 
 # How the team work/effort was divided and managed
-
+The work was divided evenly in two teams. One team worked on part 1 getting the result for the RGT and the other team was tasked with obtaining the results and recording them for the RDC. The main issue we had was having a lot of deadlines at the same time so time management was needed to finish the assignment on time.
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
 # Comments/feedback on the lab itself
+Some better instructions were needed to figure out how to use the tools we were tasked with learning. The RDC specifically was hard to manipulate the Chart.
