@@ -44,7 +44,9 @@ It can be seen from these two graphs that there seems to be a discrepency in the
 
 
 # Assessment Using Reliability Demonstration Chart 
-
+One disadvantage of a RDC is that dealing with all the different what-if scenarios by testing different values can be somewhat time-consuming.
+The RDC itself only shows the effects on the reliability of system caused by the trends of changes, it does not provide concrete quanititative values for reliability.
+The advantages of using a RDC is that analyzing the RDC is straightforward as is inputting the values. Being able to see lots of different what if scenarios is also useful.
 # 
 
 # Comparison of Results
